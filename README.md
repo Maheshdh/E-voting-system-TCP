@@ -2,18 +2,20 @@ MultiThreaded File Server and Logging Application
 A Java implementation of a multi-threaded file server and logging application, enabling clients to download files using a terminal user interface.
 
 Features
-MultiThreaded: Capable of handling multiple clients simultaneously.
-BlockingQueue: Implements a multiple producer/one consumer model.
-Documentation: Includes comprehensive Javadocs.
-UML Diagrams: Provides 2 UML diagrams for better understanding.
-Robustness: Operates with one, no, or two parameters.
+**MultiThreaded**: Capable of handling multiple clients simultaneously.
+**BlockingQueue**: Implements a multiple producer/one consumer model.
+**Documentation**: Includes comprehensive Javadocs.
+**UML** Diagrams: Provides 2 UML diagrams for better understanding.
+**Robustness**: Operates with one, no, or two parameters.
+
 User Guide
 Installation
 To run the application, navigate to the directory containing the oop.jar file and use the following commands:
 Start the server
 `$ java -cp .:./oop.jar ie/gmit/sw/server/ServerRunner 7777 path/to/my/files`
+
 Start the client
-`Start the Client`
+`$ java -cp .:./oop.jar ie/gmit/sw/server/ClientRunner`
 
 Upon starting the client, you will be presented with a menu of options:
 
